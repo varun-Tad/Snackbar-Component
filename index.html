@@ -12,24 +12,47 @@
      
 
 <h1 id="heading">Header Component</h1>
-
 <div id="buttons">
     <button id="baseline-btn">BASELINE</button>
-    <button>LEADING</button>
-    <button>STACKED</button>
+    <button id="leading-btn">LEADING</button>
+    <button id="stacked-btn">STACKED</button>
 </div>
 
+<!-- BASELINE COMPONENT -->
 
-
-
-
-<div id="baseline-comp">
+<div id="baseline-comp" class="hidden">
 
      <p id="text">Can't send photo.Retry in 5 seconds. </p>
      <p id="word">RETRY</p>
-     <P id="close">X</P>
+     <P id="baseline-close">X</P>
 
 </div>
+
+
+<!-- LEADING COMPONENT -->
+
+
+
+<div id="leading-comp" class="hidden" >
+
+    <p id="text">Your photo has been archived. </p>
+    <p id="word">UNDO</p>
+    <P id="leading-close">X</P>
+
+</div>
+
+
+<!-- STACKED COMPONENT -->
+
+<div id="stacked-comp" class="hidden">  
+    <p id="text">This item already has the label "travel". You can add a new label.</p>
+    <div id="word-close">
+        <p id="word">ADD A NEW LABEL</p>
+        <P id="stacked-close">X</P>
+    </div>
+</div>
+
+
 
 
 <script src="script.js"></script>

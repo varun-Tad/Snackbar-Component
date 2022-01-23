@@ -46,7 +46,7 @@ button{
     height:50px;
     justify-content:space-around;
     align-items: center;
-    border-radius: 0.2rem;
+    border-radius: 0.3rem;
     position: relative;
     top:560px;
     left:520px;
@@ -55,11 +55,11 @@ button{
 
 
 
-#baseline-comp #text, #baseline-comp #close{
+#baseline-comp #text, #baseline-comp #baseline-close{
     color:white;
 }
 
-#baseline-comp #close{
+#baseline-comp #baseline-close{
     cursor: pointer;
 }
 
@@ -69,7 +69,92 @@ button{
 }
 
 .hidden{
-    display:none;
+    visibility: hidden;
 }
 
 
+
+ /* LEADING COMPONENT  */
+
+
+
+
+ #leading-comp{
+    background-color:#363837 ;
+    display:flex;
+    width:400px;
+    height:50px;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 0.3rem;
+    position: relative;
+    top:500px;
+    left:10px;
+   
+}
+
+
+#leading-comp #text, #leading-close{
+    color:white;
+}
+
+#leading-comp #leading-close{
+    cursor: pointer;
+}
+
+#leading-comp #word{
+    color:#bb86fc;
+    cursor: pointer;
+}
+
+
+
+
+/* STACKED COMPONENT */
+
+
+
+#stacked-comp{
+ 
+    background-color:#363837 ;
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    height:80px;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 0.3rem;
+    position: relative;
+    top:420px;
+    left:500px;
+}
+
+
+#stacked-comp #text {
+    color:white;
+    margin-top:5px;
+}
+
+#word-close{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:500px;
+    cursor: pointer;
+}
+
+#word-close p{
+    margin-right:15px;
+    margin-top:20px
+}
+
+
+#word-close #word{
+    color:#bb86fc;
+    cursor: pointer;
+}
+
+
+#word-close p{
+    color:white;
+}
